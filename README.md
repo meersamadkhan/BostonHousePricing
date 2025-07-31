@@ -14,4 +14,9 @@ Create a new environment for project
     pip install -r requirement.txt
     git config --global user.name "Meer Samad"// will set global name 
     git config --global user.email ""
+    git add requirement.txt
+    git status
+    git add . // add all the file
+    git commit -m "this commit include requirement.txt and readme file"
+    git push origin main
 ```
